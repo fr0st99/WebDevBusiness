@@ -7,7 +7,8 @@ Connor Ballantine - 19147953
 For our design assignment we chose to design and implement an admin website for web hosting and design company, Bazinga Hosting. We implemented this website using the MySQL database managment system (DBMS), HTML & CSS and PHP. We chose to design a website for a web hosting and design company because Ash has previous experience on how such a company operates and also because we thought it was relevant to the module.
 
 ## Database Design
-Some DB design shite
+
+We took inspiration and ideas from different hosting providers and tried to make our own twist on it with the bazinga slogan while sitting inside B2005 with Sheldon Cooper behind us. This allowed us to have a design that spanned across to our titles and overall colour scheme. 
 
 ## MySQL DBMS Implementation
 ```mysql
@@ -53,7 +54,7 @@ CREATE TABLE `orders` (
 ```
 
 ## Web Site Design and Development
-Ash's shite here
+The website was designed from the ground up using CSS and HTML with different HTML pages linked in to the main index page to allow us to have a page about us for example. The design overall was done by splitting the center section of the site into columns and overlaying semi transparent rectangles as containers for the text and titles. This added a modern feel to the site. The buttons are also responsive to hover and click which makes the website appear less static and overall more user friendly. 
 
 ## PHP Code
 We used php in this project to interact with the MySQL database, i.e. to view, alter and edit data in the database. PHP was a great tool to facilitate this. Firstly, to connect to the database the 'mysqli()' function was used with variables containing database information. To view data in the database, the 'query()' function was used with a MySQL query function. The resulting table, returned as an array, was split into rows using the 'fetch_assoc()' function and displayed in a html table using a while loop. To alter existing information, the database was queried for the current values and placed in a HTML form where the user can edit any value, other that the primary key. To add a new row in a certain table, a HTML form is used to tak user input and values are stored in variables. The variables are then included in a MySQL 'INSERT' command, and executed using the 'query()' function.
