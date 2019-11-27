@@ -63,6 +63,8 @@ In the beginning, we used the 'GET' method in the beginning to easily see exactl
 
 ## Results and Encountered Problems
 
+We encountered quite a few issues with implementing the table and rows to work correctly for adding and removing data but after some trial and error we managed to make it a lot more visually appealing and functional.
+
 ## Discussion
 
 ## Conclusions
